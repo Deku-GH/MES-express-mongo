@@ -70,6 +70,4 @@ Les deux premiers exercices utilisent une base de test temporaire, séparée des
 
 ## Travail à rendre
 
-Compléter uniquement les parties indiquées dans les énoncés. Garder les résultats attendus des tests et noter une courte explication ainsi que les résultats obtenus dans [le document de réponses](REPONSES.md).
-
-Les trois exercices représentent six fichiers à compléter au total. Aucun travail supplémentaire n'est demandé. Le [relevé de vérification](VALIDATION.md) présente les contrôles effectués sur le squelette.
+Compléter uniquement les parties indiquées dans les énoncés. Les trois exercices représentent six fichiers à compléter au total. Aucun travail supplémentaire n'est demandé. Le [relevé de vérification](VALIDATION.md) présente les contrôles effectués sur le squelette.
