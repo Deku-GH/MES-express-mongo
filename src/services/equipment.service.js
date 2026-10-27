@@ -6,6 +6,13 @@ export async function createEquipment(input) {
     // MES 1 - TODO : construire les donnees metier :
     // assetTag nettoye et en majuscules, name nettoye,
     // category et dailyLateFeeCents conserves, isArchived force a false.
+    const resulta = await equipmentRepository.create({
+      assetTag: input.assetTag.uppercase(),
+      name: input.name.tirm(),
+      category:input.category,
+      
+      dailyLateFeeCents: input.dailyLateFeeCents
+    })
     throw notImplemented('MES 1 / preparation et creation equipement');
   } catch (error) {
     // FOURNI : la gestion technique de l'unicite n'est pas a reecrire.
